@@ -186,7 +186,7 @@ export default {
                 this.pageSizes.map(item =>
                   <el-option
                     value={ item }
-                    label={ item + this.t('el.pagination.pagesize') }>
+                    label={ item }>
                   </el-option>
                 )
               }
